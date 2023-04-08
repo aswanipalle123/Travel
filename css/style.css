@@ -1,0 +1,202 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+/*Navbar styles Start*/
+/*#navbar{
+    background-color:#f9f9f9!important;
+}*/
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color:black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color:#ffa500;
+}
+.navbar-toggler span{
+    color:#ffa500;
+}
+.navbar-nav{
+    margin-left: 12px;
+}
+.nav-item .nav-link{
+
+color:black;
+letter-spacing: 1px;
+border-radius: 3px;
+transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color:white;
+    background-color:#ffa500;
+}
+#navbar form button{
+    background-color: orange;
+    color:white;
+    border:none;
+}
+/*Navbar styles End*/
+/*home section  styles start*/
+.home{
+width:100%;
+height:100vh;
+background-image:url(../images/5.jpg);/*linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),*/
+background-repeat:no-repeat;
+background-size:cover;
+}
+.content{
+   text-align: center;
+   padding-top: 250px;
+}
+.home .content h1{
+    color:white;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.home .content h5{
+    color:white;
+    font-size:30px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content p{
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom:30px;
+}
+.changecontent::after{
+    content:" ";
+    color:#ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt  10s infinite linear;
+}
+@keyframes changetxt{
+    0%{content: "france";}
+    10%{content: "spain";}
+    20%{content: "india";}
+    30%{content: "pakisthan";}
+    40%{content: "chaina";}
+    50%{content: "delhi";}
+    60%{content: "paris";}
+    70%{content: "india";}
+    80%{content: "mexico";}
+}
+.home .content a{
+    padding:10px;
+    background-color: white;
+    color:black;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.home .content a:hover{
+    background-color:#ffa500;
+    color:white;
+}
+@media(max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+    @media(max-width:850px){
+        .home .content h5{
+            font-size: 20px;
+        }
+        .home .content h1{
+            font-size:38px;
+        }
+        .home .content p{
+            font-size:11px;
+        }
+    }
+}
+/*home section styles end*/
+/*book section styles start*/
+.book{
+    background-color: #f9f9f9;
+    padding:50px;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.book .card{
+border-radius: 10px;
+box-shadow:0px 5px 5px 6px black;
+}
+.book form input{
+    padding:10px;
+    color:black;
+    border:none;
+    outline:none;
+    font-size: 25px;
+    border-radius:10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border:none;
+    outline:none;
+    resize:none;
+   box-shadow:0px 5px 5px -6px black;
+    height:200px;
+}
+.book .main-text span{
+    color:#ffa500
+}
+.book .submit:hover{
+    width:250px;
+    background-color: #ffa500;
+    transition: 0.5s;
+}
+.book .submit{
+    background-color: #ffa500;
+}
+/*book section styles end*/
+/*package section styles start*/
+.package .row .col-md-4 .card img{
+    height:200px;
+    width:100%;
+    transition: all 1s ease;
+}
+.package .row .col-md-4 .card img:hover{
+    transform: scale(0.5,0.5);
+    /*transform: rotate(180deg);*/
+    /*transform: rotate(90deg) it comes vertically moddle;*/
+    /*transform: rotate(120deg);same like 90 deg little bit chnage
+    transform:rotate(45deg) ;*/
+}
+/*
+.packages .row .col-md-4 .card .checked{
+    color:#ffa500;
+}*/
+.package .card-body a{
+    border:none;
+    outline:none;
+    font-size: 30px;
+    color:white;
+    background-color: #ffa500;
+}
+.package .main-text span{
+    color:#ffa500;
+    font-size: 50px;
+}
+.footer .social-links i{
+    font-size: 40px;
+    padding:10px;
+}
+.footer span{
+    color:#ffa500;
+    font-size:60px;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!--google fonts start-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+<!--google fonts end-->
+<!--font awesome start-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<!--font awesome end-->
+<!--google fonts end-->
+</head>
+<body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--navbar end-->
+      <!--Home section start-->
+          <section class="home">
+              <div class="content">
+                <h5 class="text-capitalize">welcome to the world</h5>
+                <h1>visit <span class="changecontent"></span></h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quas</p>
+                <a href="#book">book place</a>
+              </div>
+          </section>
+      <!--Home section end-->
+      <!--Booking section start-->
+          <section class="book" id="book">
+            <div class="container">
+              <div class="main-text">
+                <h1><span>B</span>ook</h1>
+              </div>
+              <div class="row">
+                
+                <div class="col-md-6">
+                  <div class="card">
+                    <img src="images/10.jpg">
+                  </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <form>
+                      <input type="text" class="form-control" placeholder="where to" required><br>
+                      <input type="text" class="form-control" placeholder="how many" required><br>
+                      <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                      <input type="time" class="form-control" placeholder="Leaving" required><br>
+                      <textarea class="form-control" rows="5"  name="text"
+                      placeholder="enter your name and details"></textarea>
+                      <input type="submit"  value="Book now" class="submit" required>
+                    </form> 
+                </div>
+              </div>
+            </div>
+          </section>
+      <!--Booking section end-->
+      <!--package section start-->
+          <section class="package" id="package">
+            <div class="container">
+              <div class="main-text">
+                <h1><span>P</span>ackges</h1>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card rounded">
+                    <img src="images/7.jpg">
+                    <div class="card-body">
+                      <h5>United Kingdom</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                    <div class="star text-warning">
+                      <!--checked is a classname for writing the styles-->
+                      <!--we want to apply three stars take class name for 3 *-->
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h4>Price: <strong>$500</strong></h4>
+                    <a href="#book">book now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card rounded">
+                    <img src="images/8.jpg">
+                    <div class="card-body">
+                      <h5>United Kingdom</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                    <div class="star text-warning">
+                      <!--checked is a classname for writing the styles-->
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h4>Price: <strong>$500</strong></h4>
+                    <a href="#book">book now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card rounded">
+                    <img src="images/9.jpg">
+                    <div class="card-body">
+                      <h5>United Kingdom</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                    <div class="star text-warning">
+                      <!--checked is a classname for writing the styles-->
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h4>Price: <strong>$500</strong></h4>
+                    <a href="#book">book now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-4 mt-3">
+                  <div class="card rounded">
+                    <img src="images/2.jpg">
+                    <div class="card-body">
+                        <h5>United Kingdom</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                    <div class="star text-warning">
+                      <!--checked is a classname for writing the styles-->
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h4>Price: <strong>$500</strong></h4>
+                    <a href="#book">book now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                  <div class="card rounded">
+                    <img src="images/3.jpg">
+                    <div class="card-body">
+                      <h5>United Kingdom</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                    <div class="star text-warning">
+                      <!--checked is a classname for writing the styles-->
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                      <i class="fa-solid fa-star checked"></i>
+                    </div>  
+                    <h4>Price: <strong>$500</strong></h4>
+                    <a href="#book">book now</a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-md-4 mt-3">
+                    <div class="card rounded">
+                      <img src="images/4.jpg">
+                      <div class="card-body">
+                        <h5>United Kingdom</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam.</p>
+                      <div class="star text-warning">
+                        <!--checked is a classname for writing the styles-->
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                      </div>  
+                      <h4>Price: <strong>$500</strong></h4>
+                      <a href="#book">book now</a>
+                      <href="#book">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          <!--package section end-->
+          <!--footer section start-->
+            <section class="footer text-center bg-dark text-white p-5 mt-3">
+              <h1><span>T</span>ravel</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusantium pariatur esse</p>
+              <div class="social-links text-danger">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </section>
+
+
+           <!--footer section end-->
+  
+  </body>
+</html>
